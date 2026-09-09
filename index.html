@@ -1,1 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>itinerae: merry xmas</title>
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Lato&display=swap" rel="stylesheet">
+
+<style>
+body {
+  background:#FEFEED;
+  font-family:'Lato', calibri, Verdana, Arial, Helvetica, sans-serif;
+  font-size:9px;
+  text-shadow:0px 0px 1px #bbb;
+  color:#EF6A6D;
+  letter-spacing:1px;
+  line-height:11px;
+  margin:0;
+  padding:0;
+}
+
+a { text-decoration:none; color:#666; font-weight:bold; }
+a:hover { color:#F07671; }
+b { color:#D46666; font-weight:bold; }
+i { font-style:italic; color:#aaa; }
+u { color:#daac5c; text-decoration:none; }
+
+#layout { width:720px; margin:80px auto; }
+
+/* HEADER */
+#header {
+  width:720px;
+  margin:0 auto;
+  height:40px;
+  border-bottom:1px solid #FFADA5;
+  text-align:center;
+}
+#header img { vertical-align:middle; }
+#sitename a { font:30px 'Pixelify Sans', courier new; color:#F07671; vertical-align:middle; }
+
+/* NAVIGATION */
+#navigation {
+  width:720px;
+  margin:0 auto 10px auto;
+  text-align:center;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-top:2px solid #FBFEEA;
+  padding-top:1px;
+}
+#navigation a {
+  width:80px;
+  display:inline-block;
+  background:#FCDAD6;
+  font:bold 9px 'Lato', monospace, georgia;
+  text-transform:uppercase;
+  padding:4px;
+  letter-spacing:3px;
+  color:#D46666;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  margin-right:2px;
+}
+#navigation a:hover {
+  background:#fff;
+  color:#F07671;
+}
+
+/* COLUMNS */
+#left, #content, #right {
+  float:left;
+  padding:6px;
+  box-sizing:border-box;
+}
+#left { width:180px; color:#5a5a5a; }
+#content { width:360px; color:#656565; }
+#right { width:180px; color:#5a5a5a; }
+
+/* BOXES */
+.box, .box-without-title {
+  background:#fff;
+  border:1px solid #FFADA5;
+  box-shadow:5px 6px #FCDAD6;
+  border-radius:0 0 5px 5px;
+  padding:8px;
+  margin-bottom:14px;
+}
+.box-without-title { border-top:1px solid #FFADA5; }
+.title {
+  font:10px monospace;
+  text-transform:uppercase;
+  color:#fff;
+  background:#FFADA5;
+  letter-spacing:3px;
+  padding:4px 8px 2px;
+  margin-bottom:0px;
+  border-radius:5px 5px 0 0;
+}
+
+/* MENU */
+#menu a {
+  display:block;
+  width:150px;
+  background:#F07671;
+  color:#fff;
+  padding:2px;
+  margin-bottom:4px;
+  font:italic 12px georgia, monospace;
+  text-align:center;
+  text-transform:lowercase;
+  letter-spacing:3px;
+  border-radius:5px;
+}
+#menu a:hover { background:#FCDAD6; color:#F07671; }
+
+/* FOOTER */
+#footer {
+  width:720px;
+  margin:0 auto;
+  text-align:center;
+  clear:both;
+  padding:10px 0;
+}
+</style>
+</head>
+
+<body>
+<div id="layout">
+
+  <!-- HEADER -->
+  <div id="header">
+    <div id="sitename">
+      <img src="https://64.media.tumblr.com/b21deb3df357742446113bafac959eb1/b9e277d625cab2f2-a1/s75x75_c1/c9236568d5c458271a9e9fba35d1318b03acca88.gifv" alt="star">
+      <img src="https://64.media.tumblr.com/201c6b41a0c618b41f91a401d6a1e40e/b9e277d625cab2f2-87/s75x75_c1/696b4b19d4b0e71fafd7465e093279d0cfd360a5.gifv" alt="star">
+      <a href="">your site name</a>
+      <img src="https://64.media.tumblr.com/201c6b41a0c618b41f91a401d6a1e40e/b9e277d625cab2f2-87/s75x75_c1/696b4b19d4b0e71fafd7465e093279d0cfd360a5.gifv" alt="star">
+      <img src="https://64.media.tumblr.com/b21deb3df357742446113bafac959eb1/b9e277d625cab2f2-a1/s75x75_c1/c9236568d5c458271a9e9fba35d1318b03acca88.gifv" alt="star">
+    </div>
+  </div>
+
+  <!-- NAVIGATION -->
+  <div id="navigation">
+    <a href="">link 1</a> <a href="">link 2</a> <a href="">link 3</a>
+    <a href="">link 4</a> <a href="">link 5</a> <a href="">link 6</a>
+  </div>
+
+  <!-- LEFT COLUMN -->
+  <div id="left">
+    <div class="box-without-title">
+      <center>
+        <img src="https://64.media.tumblr.com/c89a39e57bbc09633b1bcac6458eb69a/7ea053eec279104e-a5/s500x750/971a8048aa3b51e2d8d0a6b26435edc46e312824.pnj" width="170" alt="side-image">
+      </center>
+    </div>
+
+    <div class="title">title</div>
+    <div class="box">
+      <b>Bold text.</b> <i>Italic Text.</i> <a href="">Link.</a>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+    </div>
+
+    <div class="title">title</div>
+    <div class="box">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+    </div>
+  </div>
+
+  <!-- CENTER COLUMN -->
+  <div id="content">
+    <div class="title">title</div>
+    <div class="box">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed purus est, dapibus a dignissim bibendum, porttitor at eros. Vestibulum id quam a massa rutrum viverra eget quis metus. Sed vitae mi dignissim, commodo felis sit amet, iaculis nulla. Mauris condimentum est eget tellus facilisis accumsan.<br><br>
+      Cras aliquet orci mi, eget eleifend ante scelerisque eget. In in arcu auctor, vestibulum enim a, porttitor tellus. Proin ut urna et risus accumsan bibendum. In hac habitasse platea dictumst. Quisque egestas quam vel orci gravida consectetur. Vestibulum at dapibus neque. Phasellus congue justo vel fermentum faucibus.
+    </div>
+
+    <div class="title">title</div>
+    <div class="box">
+      Integer vestibulum scelerisque leo, ut pretium orci consectetur vitae. Cras at elit quis purus rhoncus tincidunt sit amet non nisl. Phasellus hendrerit pulvinar porttitor. Mauris molestie gravida risus. Praesent convallis urna sapien, quis commodo ex tempus id. Ut accumsan rhoncus eros et mattis. Vestibulum consequat sit amet ante commodo tincidunt. Cras non lectus dapibus, pellentesque orci et, porta mi. Nulla facilisi.<br><br>
+      Phasellus a placerat mi. Nunc id lacinia sapien, et varius orci. Donec dictum suscipit magna ut suscipit. Quisque ullamcorper quam leo, sed facilisis massa facilisis nec. Nullam accumsan, ipsum ut lobortis condimentum, quam justo dapibus nisi, ac ultricies nulla lectus ac purus. Nam ut augue vitae arcu hendrerit gravida. Mauris pulvinar lorem vel quam interdum pretium. Cras sed viverra velit, non ornare nulla. Ut a eros pharetra, tincidunt nisi vel, facilisis ex. Nulla ut euismod erat, maximus euismod dui.
+    </div>
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div id="right">
+    <div class="title">title</div>
+    <div class="box" id="menu">
+      <a href=""><img src="https://64.media.tumblr.com/d9756156e6dece12a2aca7234f63e2c2/8549eb5d4801911f-49/s75x75_c1/97e5e0e90af5ecd8bbdd625d19c2ea7c3ab98193.gifv" height="12" alt="x"> link here</a>
+      <a href=""><img src="https://64.media.tumblr.com/d9756156e6dece12a2aca7234f63e2c2/8549eb5d4801911f-49/s75x75_c1/97e5e0e90af5ecd8bbdd625d19c2ea7c3ab98193.gifv" height="12" alt="x"> link here</a>
+      <a href=""><img src="https://64.media.tumblr.com/d9756156e6dece12a2aca7234f63e2c2/8549eb5d4801911f-49/s75x75_c1/97e5e0e90af5ecd8bbdd625d19c2ea7c3ab98193.gifv" height="12" alt="x"> link here</a>
+    </div>
+
+    <div class="title">title</div>
+    <div class="box">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+    </div>
+    
+    <div class="title">title</div>
+    <div class="box">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum.
+    </div>
+    
+   
+  </div>
+
+  <!-- DO NOT REMOVE THE CREDITS, THANK YOU!! -->
+  <div id="footer">
+    <b>Layout:</b> <a href="http://itinerae.blogspot.com">Itinerae</a>
+    <b>Pixels:</b> <a href="https://foollovers.com">Fool lovers</a>
+  </div>
+
+</div>
+</body>
+</html>
+        
